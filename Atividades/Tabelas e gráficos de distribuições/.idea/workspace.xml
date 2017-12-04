@@ -47,14 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Questao1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Questao1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Questao1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="-38">
+              <caret line="90" column="61" lean-forward="false" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
               <folding>
                 <element signature="e#623#642#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deprecation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/cbook/deprecation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Questao3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Questao3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Questao3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="302">
               <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding />
             </state>
@@ -120,6 +130,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>axisbg</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -127,11 +142,11 @@
         <option value="$PROJECT_DIR$/ExercicioGraficos.py" />
         <option value="$PROJECT_DIR$/Q1.py" />
         <option value="$PROJECT_DIR$/Q1 (Errada).py" />
-        <option value="$PROJECT_DIR$/Questao1.py" />
         <option value="$PROJECT_DIR$/Questao4.py" />
         <option value="$PROJECT_DIR$/Questao5.py" />
         <option value="$PROJECT_DIR$/Questao3.py" />
         <option value="$PROJECT_DIR$/Questao2.py" />
+        <option value="$PROJECT_DIR$/Questao1.py" />
       </list>
     </option>
   </component>
@@ -191,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Questao2">
+  <component name="RunManager" selected="Python.Questao1">
     <configuration default="false" name="DataFrame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,9 +402,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Questao2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DataFrame" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Questao1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Questao1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Questao2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DataFrame" />
         <item index="3" class="java.lang.String" itemvalue="Python.Q1 (Errada)" />
         <item index="4" class="java.lang.String" itemvalue="Python.Q1" />
       </list>
@@ -569,16 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Questao1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <element signature="e#623#642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q1 (Errada).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -599,9 +604,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Questao3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="302">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/cbook/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Questao1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="90" column="61" lean-forward="false" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+          <folding>
+            <element signature="e#623#642#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
