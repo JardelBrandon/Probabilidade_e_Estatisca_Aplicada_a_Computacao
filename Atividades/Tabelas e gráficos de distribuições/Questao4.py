@@ -47,4 +47,7 @@ def imprimirTabelaDeFrequencias(baseDeDados):
         print(frequenciaAcumulada)
 
 imprimirTabelaDeFrequencias(dados)
+plt.ylabel("Número de frequências ")
+plt.xlabel("Classes")
+plt.title("Tabela de frequência dos depósitos bancários de uma empresa, em milhares de reais!")
 plt.show()
