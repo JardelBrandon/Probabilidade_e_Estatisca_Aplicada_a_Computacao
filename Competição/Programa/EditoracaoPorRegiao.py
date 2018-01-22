@@ -9,7 +9,7 @@ fig, eixos = plt.subplots(nrows=1, ncols=1, figsize=(8,4))
 
 pie_1 = eixos.pie(regioes_editoracao, labels=regioes_editoracao.index, autopct='%1.1f%%', colors=['gold', 'lightskyblue', 'red', 'pink', 'green'])
 
-eixos.set_title('Regiões mais beneficiadas')
+eixos.set_title('Participação das Regiões no projeto de editoração')
 eixos.axis('equal')
 
 plt.show()
