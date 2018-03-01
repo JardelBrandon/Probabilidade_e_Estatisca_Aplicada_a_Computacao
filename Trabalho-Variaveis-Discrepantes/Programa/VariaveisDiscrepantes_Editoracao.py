@@ -34,3 +34,11 @@ ax2.set_ylabel("Frequência", size=10)
 
 plt.show()
 
+<<<<<<< HEAD
+=======
+plt.hist(apoio_editoracao['Total Geral (R$)'], bins=15, orientation='horizontal')
+plt.title("Valores totais por projetos de editoração")
+plt.xlabel("Frequencia")
+plt.ylabel("Valor R$")
+plt.show()
+>>>>>>> origin/master
