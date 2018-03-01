@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib
 
 apoio_editoracao = pd.read_csv('Editoracao.csv', sep=';')
 coluna_total_geral = apoio_editoracao["Total Geral (R$)"]
@@ -13,6 +14,17 @@ print(coluna_total_geral.quantile(), "\n")
 print("Valor do terceiro quartil:")
 print(coluna_total_geral.quantile(0.75))
 print("********************************************************")
+
+print("********************************************************")
+print("Valores de assimetria: \n")
+print(coluna_total_geral.skew())
+print("********************************************************")
+
+print("********************************************************")
+print("Valores de curtose: \n")
+print(coluna_total_geral.kurt())
+print("********************************************************")
+
 
 valor_condicao = 500000
 
@@ -34,3 +46,5 @@ ax2.set_ylabel("Frequência", size=10)
 
 plt.show()
 
+matplotlib.style.use('ggplot')
+apoio_editoracao.boxplot(column='Total Geral (R$)')
