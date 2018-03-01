@@ -23,6 +23,6 @@ total_prop.boxplot('Total_Geral')
 p = plt.gca()
 p.set_ylim([0,30])
 
-
+plt.show()
 # Boxplot da quantidade de propostas das instituições de ensino na PB
 #no ano de 2015

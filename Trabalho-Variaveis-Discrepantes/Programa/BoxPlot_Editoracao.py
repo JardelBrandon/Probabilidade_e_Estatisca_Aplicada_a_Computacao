@@ -8,7 +8,9 @@ editoracao = pd.read_csv('Editoracao.csv', encoding='utf-8', sep=';')
 editoracao.boxplot(column='Qtd Propostas', by='Ano Fase')
 p = plt.gca()
 p.set_ylim([0,40])
-plt.set_title('axes title')
+plt.title('axes title')
+
+plt.show()
 
 # Boxplot da quantidade de propostas por ano, a nível nacional
 
