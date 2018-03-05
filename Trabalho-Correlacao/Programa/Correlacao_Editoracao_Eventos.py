@@ -1,20 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#-------------------------------------------------------------------
-#funcao para verificar se a string da coluna total geral do conjunto
-#de dados eventos.csv pode ser convertida em float
-def canConvert(texto):
-	if(texto.isnumeric() == True):
-		return True
-	if(texto.count('.') == 1):
-		return True
-	return False
-
-
-#-------------------------------------------------------------------
-
-
 #importando DataFrames
 df_editoracao = pd.read_csv('Editoracao.csv', encoding='utf-8', sep=';')
 df_eventos = pd.read_csv('Eventos.csv', encoding='utf-8', sep=';')
@@ -29,7 +15,7 @@ Editoracao_total_geral = list(df_editoracao['Total Geral (R$)'])
 Editoracao_UF = list(df_editoracao['UF Inst Benef Macro'])
 
 Eventos_total_geral = list(df_eventos['Total Geral (R$)'])
-Eventos_UF = list(df_eventos['UF Instituição Benef Macro'])
+Eventos_UF = list(df_eventos['UF Inst Benef Macro'])
 
 #-------------------------------------------------------------------
 # Calculando soma de dinheiro investido por estado
@@ -52,8 +38,8 @@ while (cont < len(Editoracao_UF)):
 		if (Editoracao_UF[cont] == estados[i]):
 			Editoracao_somaEstados[i] += Editoracao_total_geral[cont]
 			isNI = 0
-	if isNI == 1:
-		Editoracao_somaEstados[27] += Editoracao_total_geral[cont]
+	'''if isNI == 1:
+		Editoracao_somaEstados[27] += Editoracao_total_geral[cont]'''
 	cont+=1
 
 #-------------------------------------------------------------------
@@ -65,12 +51,10 @@ while (cont < len(Eventos_UF)):
 	isNI = 1 #verifica se o estado foi informado ou  nao informado(NI)
 	for i in range(27):
 		if (Eventos_UF[cont] == estados[i]):
-			if(canConvert(Eventos_total_geral[cont]) == True):
-				Eventos_somaEstados[i] += float(Eventos_total_geral[cont])
+			Eventos_somaEstados[i] += float(Eventos_total_geral[cont])
 			isNI = 0
-	if isNI == 1:
-		if(canConvert(Eventos_total_geral[cont]) == True):
-			Eventos_somaEstados[27] += float(Eventos_total_geral[cont])
+	'''if isNI == 1:
+		Eventos_somaEstados[27] += float(Eventos_total_geral[cont])'''
 	cont+=1
 
 #-------------------------------------------------------------------
